@@ -11,7 +11,7 @@ const App = () => {
     // Simulate fetching data
     const fetchPhotos = async () => {
       // Replace with your photo fetching logic
-      const response = await fetch("https://api.example.com/photos");
+      const response = await fetch("https://images.ctfassets.net");
       const data = await response.json();
       setPhotos(data);
       setFilteredPhotos(data);
